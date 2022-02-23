@@ -5,13 +5,16 @@ body{
 } 
 h1{
     font-size: 50px;
+    
+    
 }
  
  .color-orange{
     color: orange;
 }
-section{
+.desplay-container{
     display: flex;
+    
 }
 .Mission-on{
     font-family:'Times New Roman', Times, serif;
@@ -33,6 +36,9 @@ section{
     width: 90%;
     
 }
+.half-width-illustrator{
+    width: 30%;
+}
 .link-button{
     text-decoration: none;
    background-image:linear-gradient(tomato,red) ;
@@ -41,4 +47,36 @@ section{
    color: white;
    padding: 10px;
 
+}
+
+.mission{
+    
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 30px;
+    border: 1px solid #e6f9ff;
+    background-color: #e6f9ff;
+    border-radius: 15px;
+    
+}
+.vission{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 30px;
+    border: 1px solid #f7e6e6;
+    background-color: #f7e6e6;
+    border-radius: 15px;
+  
+}
+.goals{
+    
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 30px;
+    border: 1px solid #fafad2;
+    background-color: #fafad2;
+    border-radius: 15px;
+}
+.mission-item{
+    
 }
