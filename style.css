@@ -1,6 +1,44 @@
-.color-orange{
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 5% ;
+   
+} 
+h1{
+    font-size: 50px;
+}
+ 
+ .color-orange{
     color: orange;
 }
 section{
     display: flex;
+}
+.Mission-on{
+    font-family:'Times New Roman', Times, serif;
+    border-left: 2px solid;
+    border-image:linear-gradient(cyan,orange) ;
+    border-image-slice: 2;
+    border-start-end-radius: 20px;
+    padding: 5px;
+  
+  
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.half-width-img{
+    width: 90%;
+    
+}
+.link-button{
+    text-decoration: none;
+   background-image:linear-gradient(tomato,red) ;
+   font-weight: 700;
+   border-radius: 5px;
+   color: white;
+   padding: 10px;
+
 }
